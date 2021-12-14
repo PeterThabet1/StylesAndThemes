@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.StylesAndThemes" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#A1E91E63</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">#79AEADAD</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#8FFF9800</item>
+        <item name="colorSecondaryVariant">#8FFF9800</item>
+        <item name="colorOnSecondary">#46FFFFFF</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="materialButtonStyle">@style/myButton</item>
+    </style>
+
+    <style name="myButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#8DC2185B</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#66FFFFFF</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+</resources>
